@@ -1,6 +1,10 @@
 Foxx-manager with ArangoDB
 ==========================
 
+Install [Docker](https://docs.docker.com/installation/#installation) and [Fig](http://www.fig.sh/):
+
+    $ sudo pip install -U fig
+
 On commandline:
 
     $ fig run foxxmanager bash
