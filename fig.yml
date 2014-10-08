@@ -6,7 +6,7 @@ arangodb:
     - "8529:8529"
   volumes:
     - docker_volumes/databases:/var/lib/arangodb/databases
-    - docker_volumes/apps:/var/lib/arangodb/apps
+    - docker_volumes/apps:/var/lib/arangodb-apps
 
 foxxmanager:
   build: .
